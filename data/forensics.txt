@@ -1,0 +1,16 @@
+# Forensics Report
+
+## Fingerprint Recovery
+Fingerprints were recovered from the glass counter inside the shop.
+
+## Fingerprint Match
+The fingerprints match a known offender named Rohit Verma.
+
+## Criminal History
+Rohit Verma has a prior record of theft from the year 2022.
+
+## Match Confidence
+The fingerprint match confidence is 98.7 percent.
+
+## DNA Evidence
+No other usable DNA evidence was found at the scene.

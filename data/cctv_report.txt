@@ -1,0 +1,16 @@
+# CCTV Report
+
+## Entry Time
+The suspect entered the jewelry shop at approximately 12:28 AM.
+
+## Clothing Description
+The suspect was wearing a black hoodie and blue jeans.
+
+## Facial Visibility
+The face was partially visible for about two seconds near the counter.
+
+## Physical Build
+The suspect appears to be male with an estimated height of around 6 feet.
+
+## Exit Time
+The suspect exited the shop at approximately 12:31 AM.

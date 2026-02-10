@@ -1,0 +1,16 @@
+# Call Logs
+
+## Call Time
+An outgoing call was made at 12:24 AM.
+
+## Phone Number
+The call originated from number +91-8899-332211.
+
+## Registered Owner
+The registered name for this number is Rohit Verma.
+
+## Tower Location
+The tower location was traced near MG Road.
+
+## Call Details
+The call duration was 46 seconds and was made to an unknown prepaid number.
