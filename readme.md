@@ -1,31 +1,43 @@
-# Cold Case RAG – Evidence-Based Question Answering
-
-A Retrieval Augmented Generation (RAG) system that answers
-questions strictly from forensic evidence and provides
-source citations.
-
-## Features
-- Hierarchical evidence ingestion (section + title)
-- Local vector search (no LLM hallucinations)
-- Safe logical inference
-- Source-aware answers
-
-## How it works
-1. Evidence files are parsed into structured chunks
-2. Chunks are embedded and stored in a vector index
-3. Relevant chunks are retrieved for each query
-4. An LLM answers using only retrieved evidence
-
-.
-
 ## Tech Stack
-- Python
-- SentenceTransformers / FAISS (or Chroma)
-- Gemini / OpenAI (LLM)
 
-## Why this project
-Demonstrates:
-- RAG fundamentals
-- Hallucination control
-- Source grounding
-- Real-world AI system design
+- Python
+- Flask
+- SQLAlchemy
+
+## Setup Instructions
+
+### Prerequisites
+- Python 3.8+
+- pip
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/frenemy17/cold-case-rag-project.git
+cd cold-case-rag-project
+```
+
+2. Create a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+4. Set up environment variables:
+```bash
+export GOOGLE_API_KEY="your-api-key-here"  # On Windows: set GOOGLE_API_KEY=your-api-key-here
+```
+
+5. Add evidence files:
+Place your evidence files (`.txt` format) in the `data/` directory.
+
+### Running the Project
+
+- **Embed evidence**: `python embed.py` - Processes evidence and builds the vector index
+- **Query the system**: Import `ask_rag` from `rag.py` and call `ask_rag("your question")
